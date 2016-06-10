@@ -1,0 +1,6 @@
+framework module Pods_City_Search {
+  umbrella header "Pods-City Search-umbrella.h"
+
+  export *
+  module * { export * }
+}

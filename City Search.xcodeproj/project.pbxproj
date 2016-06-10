@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66FF7178A9D01C524ED42C18 /* Pods_City_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E590F9CE63CAF88702F655 /* Pods_City_Search.framework */; };
 		E776219B1D09BD6800BD09DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776219A1D09BD6800BD09DB /* AppDelegate.swift */; };
-		E776219D1D09BD6800BD09DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776219C1D09BD6800BD09DB /* ViewController.swift */; };
 		E77621A01D09BD6800BD09DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E776219E1D09BD6800BD09DB /* Main.storyboard */; };
 		E77621A21D09BD6800BD09DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77621A11D09BD6800BD09DB /* Assets.xcassets */; };
 		E77621A51D09BD6800BD09DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77621A31D09BD6800BD09DB /* LaunchScreen.storyboard */; };
 		E77621B01D09BD6800BD09DB /* City_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77621AF1D09BD6800BD09DB /* City_SearchTests.swift */; };
 		E77621BB1D09BD6800BD09DB /* City_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E77621BA1D09BD6800BD09DB /* City_SearchUITests.swift */; };
+		E79076F91D0B3C0E0026A196 /* ColourfulBallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79076F71D0B3C0E0026A196 /* ColourfulBallViewController.swift */; };
+		E79076FA1D0B3C0E0026A196 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79076F81D0B3C0E0026A196 /* ViewController.swift */; };
+		E79076FD1D0B408F0026A196 /* CircleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79076FC1D0B408F0026A196 /* CircleViewModel.swift */; };
+		E79076FF1D0B61750026A196 /* IssueListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79076FE1D0B61750026A196 /* IssueListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B445BD88CF20D02EE7B491E /* Pods-City Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City Search.debug.xcconfig"; path = "Pods/Target Support Files/Pods-City Search/Pods-City Search.debug.xcconfig"; sourceTree = "<group>"; };
+		6CF6C8346B78851AF9D16779 /* Pods-City Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-City Search.release.xcconfig"; path = "Pods/Target Support Files/Pods-City Search/Pods-City Search.release.xcconfig"; sourceTree = "<group>"; };
+		D6E590F9CE63CAF88702F655 /* Pods_City_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_City_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77621971D09BD6800BD09DB /* City Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E776219A1D09BD6800BD09DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E776219C1D09BD6800BD09DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E776219F1D09BD6800BD09DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E77621A11D09BD6800BD09DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E77621A41D09BD6800BD09DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		E77621B61D09BD6800BD09DB /* City SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "City SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77621BA1D09BD6800BD09DB /* City_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City_SearchUITests.swift; sourceTree = "<group>"; };
 		E77621BC1D09BD6800BD09DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E79076F71D0B3C0E0026A196 /* ColourfulBallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourfulBallViewController.swift; sourceTree = "<group>"; };
+		E79076F81D0B3C0E0026A196 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E79076FC1D0B408F0026A196 /* CircleViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleViewModel.swift; sourceTree = "<group>"; };
+		E79076FE1D0B61750026A196 /* IssueListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FF7178A9D01C524ED42C18 /* Pods_City_Search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BBE3D80B5C8EDFFEA36DAE2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B445BD88CF20D02EE7B491E /* Pods-City Search.debug.xcconfig */,
+				6CF6C8346B78851AF9D16779 /* Pods-City Search.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E776218E1D09BD6700BD09DB = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +101,8 @@
 				E77621AE1D09BD6800BD09DB /* City SearchTests */,
 				E77621B91D09BD6800BD09DB /* City SearchUITests */,
 				E77621981D09BD6800BD09DB /* Products */,
+				2BBE3D80B5C8EDFFEA36DAE2 /* Pods */,
+				FAC26CDC9F4A2FE265CFEB0B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +120,9 @@
 			isa = PBXGroup;
 			children = (
 				E776219A1D09BD6800BD09DB /* AppDelegate.swift */,
-				E776219C1D09BD6800BD09DB /* ViewController.swift */,
 				E776219E1D09BD6800BD09DB /* Main.storyboard */,
+				E79076FB1D0B407E0026A196 /* ViewModel */,
+				E79076F61D0B3C0E0026A196 /* View */,
 				E77621A11D09BD6800BD09DB /* Assets.xcassets */,
 				E77621A31D09BD6800BD09DB /* LaunchScreen.storyboard */,
 				E77621A61D09BD6800BD09DB /* Info.plist */,
@@ -125,6 +148,32 @@
 			path = "City SearchUITests";
 			sourceTree = "<group>";
 		};
+		E79076F61D0B3C0E0026A196 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E79076F71D0B3C0E0026A196 /* ColourfulBallViewController.swift */,
+				E79076F81D0B3C0E0026A196 /* ViewController.swift */,
+				E79076FE1D0B61750026A196 /* IssueListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E79076FB1D0B407E0026A196 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E79076FC1D0B408F0026A196 /* CircleViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAC26CDC9F4A2FE265CFEB0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6E590F9CE63CAF88702F655 /* Pods_City_Search.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E77621BF1D09BD6800BD09DB /* Build configuration list for PBXNativeTarget "City Search" */;
 			buildPhases = (
+				9823A4C2ABA41F9C00A6BCA0 /* Check Pods Manifest.lock */,
 				E77621931D09BD6800BD09DB /* Sources */,
 				E77621941D09BD6800BD09DB /* Frameworks */,
 				E77621951D09BD6800BD09DB /* Resources */,
+				20B7F276E3C635AFAC143268 /* Embed Pods Frameworks */,
+				881770006E422F8C82118D13 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +303,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20B7F276E3C635AFAC143268 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-City Search/Pods-City Search-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881770006E422F8C82118D13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-City Search/Pods-City Search-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9823A4C2ABA41F9C00A6BCA0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E77621931D09BD6800BD09DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E776219D1D09BD6800BD09DB /* ViewController.swift in Sources */,
+				E79076FA1D0B3C0E0026A196 /* ViewController.swift in Sources */,
 				E776219B1D09BD6800BD09DB /* AppDelegate.swift in Sources */,
+				E79076FF1D0B61750026A196 /* IssueListViewController.swift in Sources */,
+				E79076FD1D0B408F0026A196 /* CircleViewModel.swift in Sources */,
+				E79076F91D0B3C0E0026A196 /* ColourfulBallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +502,7 @@
 		};
 		E77621C01D09BD6800BD09DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B445BD88CF20D02EE7B491E /* Pods-City Search.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "City Search/Info.plist";
@@ -410,6 +514,7 @@
 		};
 		E77621C11D09BD6800BD09DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF6C8346B78851AF9D16779 /* Pods-City Search.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "City Search/Info.plist";
@@ -484,6 +589,7 @@
 				E77621C11D09BD6800BD09DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E77621C21D09BD6800BD09DB /* Build configuration list for PBXNativeTarget "City SearchTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +598,7 @@
 				E77621C41D09BD6800BD09DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E77621C51D09BD6800BD09DB /* Build configuration list for PBXNativeTarget "City SearchUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +607,7 @@
 				E77621C71D09BD6800BD09DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
